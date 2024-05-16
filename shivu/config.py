@@ -2,18 +2,18 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6765826972"
-    sudo_users = "6845325416", "6765826972"
-    GROUP_ID = -1002133191051
-    TOKEN = "6707490163:AAHZzqjm3rbEZsObRiNaT7DMtw_i5WPo_0o"
+    OWNER_ID = "6336180921"
+    sudo_users = "6336180921"
+    GROUP_ID = -1002087144671
+    TOKEN = "6992957484:AAEVgdiLJLZ5qSgpWhOLAwmUOzdmEjcYZbY"
     mongo_url = "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = "Collect_em_support"
-    UPDATE_CHAT = "Collect_em_support"
-    BOT_USERNAME = "Collect_Em_AllBot"
-    CHARA_CHANNEL_ID = "-1002133191051"
-    api_id = 26626068
-    api_hash = "bf423698bcbe33cfd58b11c78c42caa2"
+    PHOTO_URL = ["https://telegra.ph/file/91285fe376f0994856ff8.jpg"]
+    SUPPORT_CHAT = "@BILLA_GANG_NTWK"
+    UPDATE_CHAT = "@BILLA_GANG_NTWK"
+    BOT_USERNAME = "@FootballerXGrab_Bot"
+    CHARA_CHANNEL_ID = "-1002087144671"
+    api_id = 25355409
+    api_hash = "b9c741ba6b62f492dd0a3a39f7b2c526"
 
     
 class Production(Config):
