@@ -41,10 +41,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         keyboard = [
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/BILLA_GANG_NTWK'),
+            InlineKeyboardButton("UPDATES", url=f'https://t.me/BILLA_GANG_NTWK')],
             [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("SOURCE", url=f'https://github.com/Subham86589/WAIFU-HUSBANDO-CATCHER')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -55,10 +55,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/BILLA_GANG_NTWK'),
+            InlineKeyboardButton("UPDATES", url=f'https://t.me/BILLA_GANG_NTWK')],
             [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("SOURCE", url=f'https://github.com/Subham86589/WAIFU-HUSBANDO-CATCHER')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -98,10 +98,10 @@ async def button(update: Update, context: CallbackContext) -> None:
         
         keyboard = [
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/BILLA_GANG_NTWK'),
+            InlineKeyboardButton("UPDATES", url=f'https://t.me/BILLA_GANG_NTWK')],
             [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("SOURCE", url=f'https://github.com/Subham86589/WAIFU-HUSBANDO-CATCHER')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
